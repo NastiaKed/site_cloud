@@ -1,0 +1,22 @@
+.details-button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .details-button:hover {
+    background-color: red;
+    transform: scale(1.05);
+  }
+  
+  .details-button:active {
+    background-color: red;
+    transform: scale(0.95);
+  }
+  

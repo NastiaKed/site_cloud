@@ -1,0 +1,48 @@
+/* Загальні стилі для додатка */
+#app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Забезпечує заповнення висоти екрану */
+}
+
+header {
+  background-color: #f48184;
+  color: #fff;
+  padding: 10px;
+}
+
+footer {
+  background-color: #f48184;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  margin-top: auto; /* Відсуває футер донизу */
+}
+
+.content {
+  flex: 1; /* Контент заповнює доступний простір */
+  padding: 20px;
+}
+
+/* Додаткові стилі для навігації */
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  margin-right: 15px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}

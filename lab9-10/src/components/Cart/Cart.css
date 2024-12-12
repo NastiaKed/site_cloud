@@ -1,0 +1,209 @@
+body {
+    background-color: #121212;
+    font-family: 'Arial', sans-serif;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .cart-page {
+    padding: 40px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .cart-page h2 {
+    text-align: center;
+    font-size: 3rem;
+    color: #F48184;
+    margin-bottom: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+  
+  .cart-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient(145deg, #feb6b6, #f56868);
+    color: #fff;
+    border-radius: 16px;
+    box-shadow: 0 8px 20px #f4818570;
+    padding: 20px;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .cart-item:hover {
+    transform: scale(1.03);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.9);
+  }
+  
+  .cart-item img {
+    max-width: 120px;
+    height: auto;
+    border-radius: 10px;
+    margin-right: 20px;
+    border: 2px solid #ffffff;
+  }
+  
+  .cart-item h3 {
+    font-size: 1.5rem;
+    margin: 0 0 10px;
+    font-weight: 700;
+    color: #ffffff;
+  }
+  
+  .cart-item p {
+    font-size: 1.2rem;
+    margin: 5px 0;
+    color: #bbb;
+  }
+  
+  .cart-item .price {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #ffffff;
+  }
+  
+  .cart-item .quantity-controls {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .cart-item .quantity-controls button {
+    background-color: #ffffff;
+    color: #121212;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .cart-item .quantity-controls button:hover {
+    background-color: #ffffff;
+    transform: scale(1.1);
+  }
+  
+  .cart-item .quantity-controls input {
+    width: 50px;
+    text-align: center;
+    border: 1px solid #ffffff;
+    border-radius: 6px;
+    background-color: #ffffff;
+    color: #000000;
+    font-size: 1.1rem;
+  }
+  
+  .cart-item .delete-button {
+    background-color: #ff4545;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .cart-item .delete-button:hover {
+    background-color: #e60000;
+    transform: scale(1.05);
+  }
+  
+  .clear-cart-button {
+    background-color: #ff4d4d;
+    color: #fff;
+    padding: 14px 30px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    display: block;
+    margin: 20px auto 0;
+    text-align: center;
+  }
+  
+  .clear-cart-button:hover {
+    background-color: #d40000;
+    transform: scale(1.1);
+  }
+  
+  .empty-cart {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 1.8rem;
+    color: #bbb;
+  }
+  
+  .total-container {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #F48184;
+    border-top: 2px solid #444;
+    padding-top: 20px;
+  }
+  
+  .cart-buttons-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+  }
+  
+  .purchase-button, .back-to-menu-button {
+    padding: 15px 40px;
+    font-size: 1.3rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .purchase-button {
+    background-color: #F48184;
+    color: white;
+  }
+  
+  .purchase-button:hover {
+    background-color: #f4575c;
+    transform: scale(1.05);
+  }
+  
+  .back-to-menu-button {
+    background-color: #F48184;
+    color: white;
+  }
+  
+  .back-to-menu-button:hover {
+    background-color: #f4575c;
+    transform: scale(1.05);
+  }
+  
+  .car-card button {
+    background-color: #F48184;
+    color: #fff;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    margin-top: 10px;
+  }
+  
+  .car-card button:hover {
+    background-color: #e05a00;
+    transform: scale(1.05);
+  }
+  
